@@ -17,18 +17,18 @@
   background-color: #ffcee7;
 }
 .main-section {
-  padding: 2px;
-  width: 100em;
+  padding: 50px;
+  width: 70em;
   margin: auto;
   border-top: ridge 3px white;
-  border-left: ridge 3px white;
+  border-left:  ridge 3px white;
   border-bottom: ridge 2px black;
   border-right: ridge 2px black;
 }
 #kitty {
   position: absolute;
   left: -50px;
-  top: 750px;
+  top: 550px;
   z-index: -1;
 }
 #navbar {
@@ -41,7 +41,7 @@
 #banner {
   padding: 2px;
   margin: auto;
-  width: 100em;
+  width: 77em;
   text-align: center;
   background-color: #ffcee7;
   border-top: ridge 3px white;
@@ -68,24 +68,3 @@ ul {
   list-style-type: none;
   padding: 1px;
 }
-
-@media only screen and (max-width: 800px) 
-{
-  /* For mobile phones */
-   #navbar {
-    position: absolute;
-    height: 1300px;
-    min-width: 120px;
-    width: 120px;
-    font-size: 3vw;
-
-    top: 0px;
-    margin-top: 35px; 
-    left: 0px;
-
-    color: black;
-    background-color: white;
-    padding: 0px 0px;
-    z-index: 1;
-  }
- 
